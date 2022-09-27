@@ -1,5 +1,5 @@
 <template>
-  <nav class="flex inline-block mt-2 sticky top-0 bg-[white]">
+  <nav class="flex inline-block mt-2 sticky top-0 bg-[white] z-10">
     <div class="logo pl-10 pt-3">
       <img src="../assets/japanwebsite/logo_01.svg" alt="" />
     </div>

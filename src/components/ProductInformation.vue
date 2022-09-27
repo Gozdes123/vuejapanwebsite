@@ -3,7 +3,7 @@
     <div class="mt-20">
       <div class="w-[80%] m-auto flex">
         <!-- <p class="text-[40px] pt-3">商品情報</p> -->
-        <p class="pt-10 information">
+        <p class="pt-10 information w-1/2">
           &emsp;&emsp;職人が選び抜いた鰹節を、あなたのご家庭で
         </p>
         <p class="text-right w-1/2 pt-10 information2">すべての商品を見る</p>
@@ -18,10 +18,14 @@
               class="absolute top-40 left-20 w-[70%] h-[50%]"
             />
           </div>
-          <div><p>だし</p></div>
-          <div><p>鰹節と昆布の旨みを味わう</p></div>
+          <div class="text-[20px] pt-7">
+            <p>{{ ProdctInformation[0].title }}</p>
+          </div>
+          <div class="text-[14px] text-[#76716f]">
+            <p>{{ ProdctInformation[0].content }}</p>
+          </div>
         </div>
-        <div>
+        <div class="">
           <div class="relative">
             <img src="../assets/japanwebsite/02@2x.jpg" alt="" />
             <img
@@ -30,8 +34,12 @@
               class="absolute top-40 left-20 w-[70%] h-[50%]"
             />
           </div>
-          <div><p>だし</p></div>
-          <div><p>鰹節と昆布の旨みを味わう</p></div>
+          <div class="text-[20px] pt-7">
+            <p>{{ ProdctInformation[1].title }}</p>
+          </div>
+          <div class="text-[14px] text-[#76716f]">
+            <p>{{ ProdctInformation[1].content }}</p>
+          </div>
         </div>
         <div>
           <div class="relative">
@@ -42,8 +50,12 @@
               class="absolute top-40 left-20 w-[70%] h-[50%]"
             />
           </div>
-          <div><p>だし</p></div>
-          <div><p>鰹節と昆布の旨みを味わう</p></div>
+          <div class="text-[20px] pt-7">
+            <p>{{ ProdctInformation[2].title }}</p>
+          </div>
+          <div class="text-[14px] text-[#76716f]">
+            <p>{{ ProdctInformation[2].content }}</p>
+          </div>
         </div>
         <div>
           <div class="relative">
@@ -54,8 +66,12 @@
               class="absolute top-40 left-20 w-[70%] h-[50%]"
             />
           </div>
-          <div><p>だし</p></div>
-          <div><p>鰹節と昆布の旨みを味わう</p></div>
+          <div class="text-[20px] pt-7">
+            <p>{{ ProdctInformation[3].title }}</p>
+          </div>
+          <div class="text-[14px] text-[#76716f]">
+            <p>{{ ProdctInformation[3].content }}</p>
+          </div>
         </div>
       </div>
       <div class="w-[80%] flex gap-10 m-auto pt-10">
@@ -68,8 +84,12 @@
               class="absolute top-40 left-20 w-[70%] h-[50%]"
             />
           </div>
-          <div><p>だし</p></div>
-          <div><p>鰹節と昆布の旨みを味わう</p></div>
+          <div class="text-[20px] pt-7">
+            <p>{{ ProdctInformation[4].title }}</p>
+          </div>
+          <div class="text-[14px] text-[#76716f]">
+            <p>{{ ProdctInformation[4].content }}</p>
+          </div>
         </div>
         <div>
           <div class="relative">
@@ -80,8 +100,12 @@
               class="absolute top-40 left-20 w-[70%] h-[50%]"
             />
           </div>
-          <div><p>だし</p></div>
-          <div><p>鰹節と昆布の旨みを味わう</p></div>
+          <div class="text-[20px] pt-7">
+            <p>{{ ProdctInformation[5].title }}</p>
+          </div>
+          <div class="text-[14px] text-[#76716f]">
+            <p>{{ ProdctInformation[5].content }}</p>
+          </div>
         </div>
         <div>
           <div class="relative">
@@ -92,8 +116,12 @@
               class="absolute top-40 left-20 w-[70%] h-[50%]"
             />
           </div>
-          <div><p>だし</p></div>
-          <div><p>鰹節と昆布の旨みを味わう</p></div>
+          <div class="text-[20px] pt-7">
+            <p>{{ ProdctInformation[6].title }}</p>
+          </div>
+          <div class="text-[14px] text-[#76716f]">
+            <p>{{ ProdctInformation[6].content }}</p>
+          </div>
         </div>
         <div>
           <div class="relative">
@@ -104,18 +132,28 @@
               class="absolute top-40 left-20 w-[70%] h-[50%]"
             />
           </div>
-          <div><p>だし</p></div>
-          <div><p>鰹節と昆布の旨みを味わう</p></div>
+          <div class="text-[20px] pt-7">
+            <p>{{ ProdctInformation[7].title }}</p>
+          </div>
+          <div class="text-[14px] text-[#76716f]">
+            <p>{{ ProdctInformation[7].content }}</p>
+          </div>
+          <div>
+            <p></p>
+          </div>
         </div>
       </div>
     </div>
   </div>
 </template>
 <script>
-export default {};
+import { mapState } from "vuex";
+export default {
+  computed: { ...mapState(["ProdctInformation"]) },
+};
 </script>
 
-<style scope>
+<style scoped>
 /* 商品情報 */
 .information::before {
   content: "商品情報";

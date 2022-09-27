@@ -2,20 +2,23 @@
   <NavBar></NavBar>
   <ImgBar></ImgBar>
   <SecondPart></SecondPart>
-  <ProdectInformation></ProdectInformation>
+  <ProductInformation></ProductInformation>
+  <LocationBar></LocationBar>
 </template>
 
 <script>
 import NavBar from "./components/NavBar.vue";
 import ImgBar from "./components/ImgBar.vue";
 import SecondPart from "./components/SecondPart.vue";
-import ProdectInformation from "./components/ProdectInformation.vue";
+import ProductInformation from "./components/ProductInformation.vue";
+import LocationBar from "./components/LocationBar.vue";
 export default {
   components: {
     NavBar,
     ImgBar,
     SecondPart,
-    ProdectInformation,
+    ProductInformation,
+    LocationBar,
   },
 };
 </script>
