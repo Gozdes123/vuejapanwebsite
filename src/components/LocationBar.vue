@@ -1,6 +1,6 @@
 <template>
   <div class="mt-20">
-    <div class="w-[80%] m-auto flex">
+    <div class="w-[65%] m-auto flex">
       <!-- <p class="text-[40px] pt-3">商品情報</p> -->
       <p class="pt-10 information w-1/2">
         &emsp;&emsp;にんべんの美味しさをお店で体験
@@ -9,7 +9,11 @@
     </div>
     <div class="flex gap-2 pt-10">
       <div class="w-[33%] relative">
-        <img src="../assets/japanwebsite/shop_img_01.jpg" alt="" />
+        <img
+          src="../assets/japanwebsite/shop_img_01.jpg"
+          alt=""
+          class="scale-100 ease-out duration-500 hover:scale-105"
+        />
         <img
           src="../assets/japanwebsite/shop_logo_01.svg"
           alt=""
@@ -21,7 +25,11 @@
         </div>
       </div>
       <div class="w-[33%] relative">
-        <img src="../assets/japanwebsite/shop_img_02.jpg" alt="" />
+        <img
+          src="../assets/japanwebsite/shop_img_02.jpg"
+          alt=""
+          class="scale-100 ease-out duration-500 hover:scale-105"
+        />
         <img
           src="../assets/japanwebsite/shop_logo_02.svg"
           alt=""
@@ -32,8 +40,12 @@
           <p class="text-white">｢一汁一飯｣ をコンセプトに自慢のだしをお届け</p>
         </div>
       </div>
-      <div class="w-[33%] relative">
-        <img src="../assets/japanwebsite/shop_img_03.jpg" alt="" />
+      <div class="w-[33%] relative overflow-hidden">
+        <img
+          src="../assets/japanwebsite/shop_img_03.jpg"
+          alt=""
+          class="scale-100 ease-out duration-500 hover:scale-105"
+        />
         <img
           src="../assets/japanwebsite/shop_logo_03.svg"
           alt=""

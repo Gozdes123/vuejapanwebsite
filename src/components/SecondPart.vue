@@ -1,6 +1,6 @@
 <template>
   <div class="bg-[#f8f8f5] inline-block">
-    <div class="flex gap-6 w-[80%] m-auto">
+    <div class="flex gap-6 w-[65%] m-auto">
       <div class="w-[33%] mt-10">
         <div class="overflow-hidden">
           <img
