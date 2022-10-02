@@ -8,6 +8,7 @@
   <BannerBar></BannerBar>
   <NewsBar></NewsBar>
   <!-- <LastImage></LastImage> -->
+  <SupportCompany></SupportCompany>
   <LastBar></LastBar>
   <CopoyWright></CopoyWright>
 </template>
@@ -24,6 +25,7 @@ import NewsBar from "./components/NewsBar.vue";
 // import LastImage from "./components/LastImage.vue";
 import LastBar from "./components/LastBar.vue";
 import CopoyWright from "./components/CopyWrite.vue";
+import SupportCompany from "./components/SupportCompany.vue";
 export default {
   components: {
     NavBar,
@@ -35,6 +37,7 @@ export default {
     BannerBar,
     NewsBar,
     // LastImage,
+    SupportCompany,
     CopoyWright,
     LastBar,
   },

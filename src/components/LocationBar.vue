@@ -8,7 +8,7 @@
       <p class="text-right w-1/2 pt-10 information2">すべての商品を見る</p>
     </div>
     <div class="flex gap-2 pt-10">
-      <div class="w-[33%] relative">
+      <div class="w-[33%] relative overflow-hidden">
         <img
           src="../assets/japanwebsite/shop_img_01.jpg"
           alt=""
@@ -24,7 +24,7 @@
           <p class="text-white">本物のだしの美味しさを体験</p>
         </div>
       </div>
-      <div class="w-[33%] relative">
+      <div class="w-[33%] relative overflow-hidden">
         <img
           src="../assets/japanwebsite/shop_img_02.jpg"
           alt=""
