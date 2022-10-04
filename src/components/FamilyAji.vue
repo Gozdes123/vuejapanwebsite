@@ -1,11 +1,11 @@
 <template>
   <div class="mt-20">
-    <div class="w-[65%] m-auto flex">
+    <div class="w-[65%] m-auto flex xl:w-[80%]">
       <!-- <p class="text-[40px] pt-3">商品情報</p> -->
       <p class="pt-10 information w-1/2">&emsp;&emsp;家庭でプロの味を再現</p>
       <p class="text-right w-1/2 pt-10 information2">レシピ一覽を見る</p>
     </div>
-    <div class="w-[65%] m-auto">
+    <div class="w-[65%] m-auto xl:w-[80%]">
       <div class="w-[100%] flex">
         <div class="w-1/2 overflow-hidden">
           <img

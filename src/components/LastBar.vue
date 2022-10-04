@@ -1,6 +1,6 @@
 <template>
   <div class="bg-[#f8f8f5]">
-    <div class="w-[65%] m-auto pt-20">
+    <div class="w-[65%] m-auto pt-20 xl:w-[80%]">
       <div class="inline-flex w-[100%]">
         <div class="w-1/2">
           <img src="../assets/japanwebsite/logo_01.svg" alt="" />

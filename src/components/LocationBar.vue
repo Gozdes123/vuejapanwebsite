@@ -1,6 +1,6 @@
 <template>
   <div class="mt-20">
-    <div class="w-[65%] m-auto flex">
+    <div class="w-[65%] m-auto flex xl:w-[80%]">
       <!-- <p class="text-[40px] pt-3">商品情報</p> -->
       <p class="pt-10 information w-1/2">
         &emsp;&emsp;にんべんの美味しさをお店で体験

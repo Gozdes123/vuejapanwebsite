@@ -1,14 +1,14 @@
 <template>
   <div>
     <div class="mt-20">
-      <div class="w-[65%] m-auto flex">
+      <div class="w-[65%] m-auto flex xl:w-[80%]">
         <!-- <p class="text-[40px] pt-3">商品情報</p> -->
         <p class="pt-10 information w-1/2">
           &emsp;&emsp;職人が選び抜いた鰹節を、あなたのご家庭で
         </p>
         <p class="text-right w-1/2 pt-10 information2">すべての商品を見る</p>
       </div>
-      <div class="w-[65%] flex gap-10 m-auto pt-10">
+      <div class="w-[65%] flex gap-10 m-auto pt-10 xl:w-[80%]">
         <div>
           <div class="relative overflow-hidden">
             <img
@@ -90,7 +90,7 @@
           </div>
         </div>
       </div>
-      <div class="w-[65%] flex gap-10 m-auto pt-10">
+      <div class="w-[65%] flex gap-10 m-auto pt-10 xl:w-[80%]">
         <div>
           <div class="relative overflow-hidden">
             <img

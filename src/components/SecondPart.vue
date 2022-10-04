@@ -1,15 +1,14 @@
 <template>
   <div class="bg-[#f8f8f5] inline-block">
-    <div class="flex gap-6 w-[65%] m-auto">
+    <div class="flex gap-6 w-[65%] m-auto xl:w-[80%]">
       <div class="w-[33%] mt-10">
-        <div class="overflow-hidden">
+        <div class="overflow-hidden area1">
           <img
             src="../assets/japanwebsite/osuimono-monaka_bn.jpg"
             alt=""
             class="scale-100 ease-out duration-500 hover:scale-105"
           />
         </div>
-
         <p class="text-[20px] mt-5">至福の一椀「お吸物もなか」</p>
         <p class="text-[14px] text-[#76716f]">
           「もなかの皮」にまでこだわった、風味豊かなお吸物です

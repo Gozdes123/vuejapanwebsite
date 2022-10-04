@@ -1,5 +1,5 @@
 <template>
-  <div class="w-[65%] m-auto flex mt-20">
+  <div class="w-[65%] m-auto flex mt-20 xl:w-[80%]">
     <div class="w-1/2">
       <div class="flex">
         <div class="w-1/2 text-[20px]">ニュース</div>
